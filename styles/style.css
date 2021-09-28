@@ -1,0 +1,86 @@
+html {
+    font-family: 'a', sans-serif;
+}
+h2 {
+    padding-top: 50px;
+    text-align:  center;
+}
+
+table, th, td {
+    padding: 10px;
+  }
+  #cases{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+th {
+    color: white;
+    background-color:limegreen;
+}
+#cases tr:nth-child(even) {
+    font-weight: bold;
+    background-color: rgb(176, 238, 176);
+}
+#cases tr:nth-child(odd) {
+    font-weight: bold;
+    background-color: rgb(119, 219, 119);
+}
+
+.center {
+    text-align:  center;
+}
+
+.column {
+    margin-left: 150px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.description {
+    position: relative;
+    font-weight: bold;
+    left: 20px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0.5px 0.5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button1 {
+    color:rgb(114, 247, 121) ;
+    padding: 5px 31px;
+}
+.button2 {
+    color:rgb(230, 36, 36) ;
+    padding: 5px 20px;
+}
+.button3 {
+    
+    background-color: limegreen;
+    color: white;
+    padding: 10px 30px;
+}
+
+.button_center{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
